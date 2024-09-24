@@ -1,0 +1,6 @@
+@TpiGazzera_HostAddress = http://localhost:5143
+
+GET {{TpiGazzera_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
