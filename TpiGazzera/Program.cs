@@ -1,6 +1,7 @@
 using Application.Interfaces;
 using Application.Services;
 using Domain.Interfaces;
+using Infrastructure.Repositories;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -16,7 +17,7 @@ builder.Services.AddScoped<IUserService, UserService>();
 #endregion
 
 #region Repositories
-// builder.Services.AddScoped<IUserRepository, UserRepositoryEf>();
+builder.Services.AddScoped<IUserRepository, UserRepository>();
 #endregion
 
 var app = builder.Build();

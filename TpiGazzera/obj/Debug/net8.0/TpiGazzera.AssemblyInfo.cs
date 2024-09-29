@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TpiGazzera")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e4256001cc252924c28515f816c4598bc8cedaa8")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+45e0ddba2fe164f7e76659de84042c9d399357be")]
 [assembly: System.Reflection.AssemblyProductAttribute("TpiGazzera")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TpiGazzera")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

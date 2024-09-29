@@ -140,3 +140,5 @@ C:\Users\pantr\Desktop\Facultad\Programacion 3\TpiGazzera\TpiGazzera\TpiGazzera\
 C:\Users\pantr\Desktop\Facultad\Programacion 3\TpiGazzera\TpiGazzera\TpiGazzera\bin\Debug\net8.0\runtimes\win-arm64\native\e_sqlite3.dll
 C:\Users\pantr\Desktop\Facultad\Programacion 3\TpiGazzera\TpiGazzera\TpiGazzera\bin\Debug\net8.0\runtimes\win-x64\native\e_sqlite3.dll
 C:\Users\pantr\Desktop\Facultad\Programacion 3\TpiGazzera\TpiGazzera\TpiGazzera\bin\Debug\net8.0\runtimes\win-x86\native\e_sqlite3.dll
+C:\Users\pantr\Desktop\Facultad\Programacion 3\TpiGazzera\TpiGazzera\TpiGazzera\bin\Debug\net8.0\Infrastructure.dll
+C:\Users\pantr\Desktop\Facultad\Programacion 3\TpiGazzera\TpiGazzera\TpiGazzera\bin\Debug\net8.0\Infrastructure.pdb
