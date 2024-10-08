@@ -1,6 +1,7 @@
 using Application.Interfaces;
 using Application.Services;
 using Domain.Interfaces;
+using Infrastructure.Data;
 using Infrastructure.Repositories;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -14,10 +15,12 @@ builder.Services.AddSwaggerGen();
 
 #region Services
 builder.Services.AddScoped<IUserService, UserService>();
+builder.Services.AddScoped<IProductService, ProductService>();
 #endregion
 
 #region Repositories
 builder.Services.AddScoped<IUserRepository, UserRepository>();
+builder.Services.AddScoped<IProductRepository, ProductRepository>();
 #endregion
 
 var app = builder.Build();
