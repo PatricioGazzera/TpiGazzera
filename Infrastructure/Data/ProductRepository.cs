@@ -11,6 +11,12 @@ namespace Infrastructure.Data
 {
     public class ProductRepository : IProductRepository
     {
+        private readonly ApplicationContext _context;
+
+        public ProductRepository(ApplicationContext context)
+        {
+            _context = context;
+        }
         static int LastIdAssigned = 0;
         static List<Product> products = [];
 

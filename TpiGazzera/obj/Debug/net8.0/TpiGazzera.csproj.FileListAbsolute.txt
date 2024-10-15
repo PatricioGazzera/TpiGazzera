@@ -67,7 +67,6 @@ C:\Users\pantr\Desktop\Facultad\Programacion 3\TpiGazzera\TpiGazzera\TpiGazzera\
 C:\Users\pantr\Desktop\Facultad\Programacion 3\TpiGazzera\TpiGazzera\TpiGazzera\bin\Debug\net8.0\System.Composition.Runtime.dll
 C:\Users\pantr\Desktop\Facultad\Programacion 3\TpiGazzera\TpiGazzera\TpiGazzera\bin\Debug\net8.0\System.Composition.TypedParts.dll
 C:\Users\pantr\Desktop\Facultad\Programacion 3\TpiGazzera\TpiGazzera\TpiGazzera\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
-C:\Users\pantr\Desktop\Facultad\Programacion 3\TpiGazzera\TpiGazzera\TpiGazzera\bin\Debug\net8.0\System.Text.Json.dll
 C:\Users\pantr\Desktop\Facultad\Programacion 3\TpiGazzera\TpiGazzera\TpiGazzera\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
 C:\Users\pantr\Desktop\Facultad\Programacion 3\TpiGazzera\TpiGazzera\TpiGazzera\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
 C:\Users\pantr\Desktop\Facultad\Programacion 3\TpiGazzera\TpiGazzera\TpiGazzera\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
@@ -142,3 +141,9 @@ C:\Users\pantr\Desktop\Facultad\Programacion 3\TpiGazzera\TpiGazzera\TpiGazzera\
 C:\Users\pantr\Desktop\Facultad\Programacion 3\TpiGazzera\TpiGazzera\TpiGazzera\bin\Debug\net8.0\runtimes\win-x86\native\e_sqlite3.dll
 C:\Users\pantr\Desktop\Facultad\Programacion 3\TpiGazzera\TpiGazzera\TpiGazzera\bin\Debug\net8.0\Infrastructure.dll
 C:\Users\pantr\Desktop\Facultad\Programacion 3\TpiGazzera\TpiGazzera\TpiGazzera\bin\Debug\net8.0\Infrastructure.pdb
+C:\Users\pantr\Desktop\Facultad\Programacion 3\TpiGazzera\TpiGazzera\TpiGazzera\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\pantr\Desktop\Facultad\Programacion 3\TpiGazzera\TpiGazzera\TpiGazzera\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\pantr\Desktop\Facultad\Programacion 3\TpiGazzera\TpiGazzera\TpiGazzera\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\pantr\Desktop\Facultad\Programacion 3\TpiGazzera\TpiGazzera\TpiGazzera\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+C:\Users\pantr\Desktop\Facultad\Programacion 3\TpiGazzera\TpiGazzera\TpiGazzera\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\pantr\Desktop\Facultad\Programacion 3\TpiGazzera\TpiGazzera\TpiGazzera\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
