@@ -36,6 +36,11 @@ namespace Infrastructure.Repositories
             return users.FirstOrDefault(x => x.Id == Id);
         }
 
+        public User? GetUserByUserName(string userName)
+        {
+            throw new NotImplementedException();
+        }
+
         public void SaveChanges()
         {
             throw new NotImplementedException();

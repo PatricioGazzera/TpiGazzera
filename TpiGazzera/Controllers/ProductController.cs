@@ -3,12 +3,14 @@ using Application.Models;
 using Application.Models.Requests;
 using Domain.Entities;
 using Domain.Exceptions;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 namespace TpiGazzera.Controllers
 {
     [ApiController]
+    [Authorize]
     [Route("api/[controller]")]
     public class ProductController : ControllerBase
     {
@@ -18,12 +20,14 @@ namespace TpiGazzera.Controllers
             _productService = productService;
         }
 
+        
         [HttpGet]
         public ActionResult<List<ProductDto>> GetAll()
         {
             return _productService.GetAll();
         }
 
+        
         [HttpGet("{id}")]
         public ActionResult<ProductDto> Get([FromRoute] int id) 
         { 
@@ -37,12 +41,14 @@ namespace TpiGazzera.Controllers
             }
         }
 
+        
         [HttpGet("[action]")]
         public ActionResult<List<Product>> GetAllFullData(IProductService productService)
         {
             return _productService.GetAllFullData();   
         }
 
+        [Authorize(Policy = "Admin")]
         [HttpPost]
         public IActionResult Create([FromBody] ProductCreateRequest productCreateRequest) 
         {
@@ -50,6 +56,7 @@ namespace TpiGazzera.Controllers
             return CreatedAtAction(nameof(Get), new { id = newObj.Id }, newObj);
         }
 
+        [Authorize(Policy = "Admin")]
         [HttpPut("{id}")]
         public IActionResult Update([FromRoute] int id, [FromBody] ProductUpdateRequest productUpdateRequest)
         {
@@ -64,6 +71,7 @@ namespace TpiGazzera.Controllers
             }
         }
 
+        [Authorize(Policy = "Admin")]
         [HttpDelete("{id}")]
         public IActionResult Delete([FromRoute] int id)
         {
